@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+/* div mãe */
+#divmae{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./transferir.png");
+} 
+
+/* cabeçalho */
+.cab {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 10%;
+    background-color: rgba(0, 0, 0, 0.39);
+    opacity: 0.9;
+}
+
+.topright {
+    position: absolute;
+    right: 16px;
+    font-size: 18px;
+    color: rgba(133, 25, 173, 0.885) ;
+}
+
+.topleft {
+    position: absolute;
+    left: 16px;
+    font-size: 18px;
+    color: rgba(133, 25, 173, 0.885) ;
+}
+
+p {
+    font-size: clamp(0.15em, 1vh + 1vw, 10em);
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    display: flex;
+    font-size: clamp(1em, 1.5vh + 2vw, 10em);
+    font-family:"montserrat";
+    color:white;
+}
+
+#tit {
+    display: flex;
+    position: absolute;
+    color:white ;
+    /* margin: 10px; */
+    top: 12%;
+    left: 1%;
+    
+    
+    
+   
+}
+
+
+/* botões */
+.botoes{
+    display: flex;
+    position: relative;
+    width: 100%;
+    /* height: 10%; */
+    float: left;
+    flex-direction: column;
+    top: 20%;
+    
+  
+}
+
+.btn{
+    background-color:rgba(134, 25, 173, 0.408);
+    color:white ;
+    opacity: 0.8;
+    text-decoration: none;
+    border: none;
+    padding: 10px 5px;
+    cursor: pointer;
+    width: 100px;
+   
+    /* height: 35px;  */
+    margin: 14px;
+    /* border-radius: 6%; */
+
+}
+
+/* div respostas */
+.res{
+
+    display: flex; 
+    position: absolute;
+    flex-direction: column; 
+    color: white;
+    /* height: 7%; */
+    /* right: 49%;  */
+    left: 43%;
+    top: 36%;
+    justify-content: center;
+    font-size: 100%; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+
+/* 
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+     justify-content: center;
+    /* align-items: center; */ 
+      /* height: 75%; */
+    /* width: 25%;  */
+    /* color: white; */
+    
+    /* left: 24%;  */
+    /* font-size: 20%; */
+   
+} 
+title{
+color: white;
+}
+
+
+@media (max-width: 450px){
+    #subscription-form{
+    align-content: center;
+    position: absolute; 
+    left: 9%;
+    max-width: 50%;
+    top:25%;
+    }
+    .topright {
+        position: absolute;
+        right: 16px;
+        font-size: 18px;
+        color: rgb(10, 88, 233);
+    }
+    
+    .topleft {
+        position: absolute;
+        font-size:none;
+        color: rgb(10, 88, 233) ;
+    }
+    
+    }
+    
+
+
